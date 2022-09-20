@@ -1,6 +1,6 @@
 # Quiz Game Android app built with Java
 
-##A fully functional Quiz game project written in Java Android studio that demonstrates how to make a basic, fun and efficient quiz game.
+## A fully functional Quiz game project written in Java Android studio that demonstrates how to make a basic, fun and efficient quiz game.
 
 This project is a responsive Android app that allows you to play the quiz game by simply logging in.
 This project is a simple quiz game  android application which use firebase realtime to store data about the user.
