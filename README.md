@@ -2,17 +2,13 @@
 
 ## A fully functional Quiz game project written in Java Android studio showing how to create a simple quiz game .
 
+This project is a responsive Android app that allows you to play the quiz game by simply logging in.
 This project is a simple quiz game  android application which use firebase realtime to store data about the user.
 
+Initially, the application will prompt you to log in via Google or register your account with the system. When you successfully log in, you will immediately begin playing the game and a 50-second timer will begin.
+When the timer runs out, the game is over and you will be redirected to your personal profile where your score will be visible. You can also access the multipleyer scoreboard in your personal profile activity by clicking a simple button to see all of the other players' scores.
+
 The project shows how to do the following:
-
-A responsive android application where you can play the quiz game  simply by logging in.
-
-Initially it would ask you to log in by google or by registering your account into the system. Once you are logged in successfully,
-you will imediately start to game and a 50 seconds timer will began.
-Once the timer will reach to the end ,the game will be over and you will be redirect to your personal profile were your score will be visible,
-You  can also access the multipleyer scorebaord in your personal profile activity by a simple button cilck in order to access all the others players scores.
-
 * Create a login and register system with firebase realtime to conenct the database
 * Create a Google login system using firebase authentication
 * Create a simple fiendly and interactive Menu of the game
