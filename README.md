@@ -24,8 +24,7 @@ You  can also access the multipleyer scorebaord in your personal profile activit
 
 Home Activity
 
-![Screenshot_20220920-145508_Questions_game (1)](https://user-images.githubusercontent.com/93276114/191281819-821bca77-bd76-42c5-a494-725355fd6d78.jpg)
-
+![Screenshot_20220920-145508_Questions_game (1)](https://user-images.githubusercontent.com/93276114/191284820-6212abb8-9735-427a-abfe-de8818d978c3.jpg)
 Google login
 ![Screenshot_20220920-145606_Google Play services (1)](https://user-images.githubusercontent.com/93276114/191282229-9d0875e3-62d8-4935-be33-fa2b793a5660.jpg)
  
