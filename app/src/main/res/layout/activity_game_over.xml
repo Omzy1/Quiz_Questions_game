@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOver"
+    android:background="@drawable/background_3">
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/riffic_bold"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfile"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/riffic_bold"
+        android:gravity="center"
+        android:text="Your Score"
+        android:textColor="@color/blue"
+        android:textSize="25sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtScore"
+        android:layout_marginTop="20dp"
+        android:divider="?dividerHorizontal"
+        android:orientation="vertical"
+        android:showDividers="beginning|end"
+        android:id="@+id/linearResult">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtTotalQs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Questions: 0"
+            android:textColor="#FF0000"
+            android:textSize="25sp"
+            android:fontFamily="@font/tooney_noodle"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txtCorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Correct : 0"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:fontFamily="@font/tooney_noodle"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txtIncorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="Incorrect : 0"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/tooney_noodle"/>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOthers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearResult"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#673AB7"
+        android:fontFamily="@font/roboto_medium"
+        android:padding="10dp"
+        android:text="Others Score"
+        android:textSize="20sp"
+        app:cornerRadius="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTryAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnOthers"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@drawable/background_2"
+        android:fontFamily="@font/roboto_medium"
+        android:padding="10dp"
+        android:text="Play Again"
+        android:textSize="20sp"
+        app:cornerRadius="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTryAgain"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/roboto_medium"
+        android:padding="10dp"
+        android:text="Log out"
+        android:textSize="20sp"
+        app:cornerRadius="15dp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/mainLayout">
+
+
+    <TextView
+        android:id="@+id/homeTlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUIZ GAME"
+        android:fontFamily="@font/riffic_bold"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/imgMenu_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeTlt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:src="@mipmap/quiz_game_logo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgMenu_quiz"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@mipmap/google_logo_smaller"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Sign in with google"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:cornerRadius="15dp"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/otherSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/google"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#882505"
+        android:drawableLeft="@drawable/ic_email2"
+        android:fontFamily="@font/riffic_bold"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Sign in with your email"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="15dp" />
+
+
+
+
+
+
+
+</RelativeLayout>

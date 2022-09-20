@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1093238774550",
+    "project_id": "questions-game-a1441",
+    "storage_bucket": "questions-game-a1441.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093238774550:android:6bdc06ec17bddacb66ce37",
+        "android_client_info": {
+          "package_name": "com.example.questions_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093238774550-qknvc4d4jf16evrc36cajdd2uqt39l85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNfsAC5MzzL6bq9-1iRFsYPlOkqVcmKXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093238774550-qknvc4d4jf16evrc36cajdd2uqt39l85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
